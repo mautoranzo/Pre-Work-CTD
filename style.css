@@ -5,7 +5,6 @@
 body{
     background-image: url('http://wallpapercave.com/wp/0aQrzLN.jpg');
     background-attachment: fixed;
-    /* margin: 50% 0 0 0; */
     position: relative;
     max-height: 70224px;
 }
@@ -16,13 +15,8 @@ body{
     margin: 0 auto;
     perspective: 3050px;
     transform: translateY(-34800px) rotateX(60deg);
-    /* animation: roll 60s linear forwards; */
 }
 
-@keyframes roll{
-    from {perspective:3050px; transform: translateY(-13500px)}
-    to {perspective:8500; transform: translateY(-43500px)}
-}
 
 .scroll-text{
     height: 70100px;
@@ -30,26 +24,8 @@ body{
     text-align: justify center;
     position: relative;
     transform: translateZ(23500px) translateY(27000px)  rotateX(40deg);
-    /* transform: translateZ(-22400px) translateY(-26500px) rotateX(41deg); */
-    /* transform-origin: center top; */
-
-
-    /* animation: scroll 5s linear forwards; */
 }
 
-@keyframes scroll{
-    from {transform: translateZ(24000px) translateY(27500px) rotateX(40deg)}
-    to {transform: translateZ(23500px) translateY(27000px)}
-    /* from {top: 0;transform: translateZ(23500px) rotateX(10deg);}
-    to {top:60000;transform:translateZ(0px) rotateX(45deg);} */
-}
-
-
-
-#characters-list{
-    /* position: absolute; */
-    /* text-align: justify; */
-}
 .charOfList, .movOfList, .charOfMov, .filmsOfChar{
     padding: 15px;
 }
