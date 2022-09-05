@@ -88,6 +88,11 @@ header, .movList, .charList, .movies, .characters, .movie-characters, .films-cha
     animation: scroll 30s linear forwards;
 }
 
+/* .movPag{
+    animation-play-state:paused;
+} */
+
+
 @keyframes scroll{
     from {top:-200px; transform: translateZ(0)   rotateX(10deg);}
     to {top: -1950px; transform: translateZ(-200px)  rotateX(11deg);}
@@ -118,5 +123,10 @@ header, .movList, .charList, .movies, .characters, .movie-characters, .films-cha
 
 @keyframes roll{
     from {top:200px; transform: translate3d(50%,0,0)   rotateX(20deg);}
-    to {top: -600px; transform: translate3d(50%,0,-200px)  rotateX(21deg);}
+    to {top: -800px; transform: translate3d(50%,0,-200px)  rotateX(21deg);}
+}
+
+.scroll-text:hover, .ep123:hover{
+    animation-play-state:paused;
+    cursor:grabbing ;
 }
