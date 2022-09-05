@@ -3,6 +3,7 @@
     text-align: center;
 }
 body{
+    background-color: black;
     background-image: url('http://wallpapercave.com/wp/0aQrzLN.jpg');
     background-attachment: fixed;
     position: relative;
@@ -105,7 +106,6 @@ header, .movList, .charList, .movies, .characters, .movie-characters, .films-cha
     from {top:-200px; transform: translateZ(0)   rotateX(8deg);}
     to {top: -2300px; transform: translateZ(-200px)  rotateX(9deg);}
 }
-
 
 .charPag{
     height: fit-content;
